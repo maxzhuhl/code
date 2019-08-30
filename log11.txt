@@ -1,0 +1,32 @@
+.<_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'> 
+Time Elapsed: 0:00:07.381367
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\untitled2\TEST_CASE\baidu.py", line 47, in <module>
+    youjian.send_email(HtmlFile)
+  File "C:\Users\Administrator\PycharmProjects\untitled2\lianxi\youjian.py", line 23, in send_email
+    smtp.connect(smtpserver)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\socket.py", line 727, in create_connection
+    raise err
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\socket.py", line 716, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+.<_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'> 
+Time Elapsed: 0:00:09.420696
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\untitled2\TEST_CASE\baidu.py", line 47, in <module>
+    youjian.send_email(HtmlFile)
+  File "C:\Users\Administrator\PycharmProjects\untitled2\lianxi\youjian.py", line 23, in send_email
+    smtp.connect(smtpserver)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\socket.py", line 727, in create_connection
+    raise err
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\socket.py", line 716, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。

@@ -1,0 +1,99 @@
+.<_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'> 
+Time Elapsed: 0:00:08.897783
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\untitled2\lianxi\baidu.py", line 82, in <module>
+    youjian.send_email(HtmlFile)
+  File "C:\Users\Administrator\PycharmProjects\untitled2\lianxi\youjian.py", line 23, in send_email
+    smtp.connect(smtpserver)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\socket.py", line 727, in create_connection
+    raise err
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\socket.py", line 716, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] ç”±äºè¿æ¥æ–¹åœ¨ä¸€æ®µæ—¶é—´åæ²¡æœ‰æ­£ç¡®ç­”å¤æˆ–è¿æ¥çš„ä¸»æœºæ²¡æœ‰ååº”ï¼Œè¿æ¥å°è¯•å¤±è´¥ã€‚
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\untitled2\lianxi\demo_01.py", line 19, in <module>
+    unittest.main(defaultTest='suite')
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\main.py", line 100, in __init__
+    self.parseArgs(argv)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\main.py", line 147, in parseArgs
+    self.createTests()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\main.py", line 159, in createTests
+    self.module)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\loader.py", line 220, in loadTestsFromNames
+    suites = [self.loadTestsFromName(name, module) for name in names]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\loader.py", line 220, in <listcomp>
+    suites = [self.loadTestsFromName(name, module) for name in names]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\loader.py", line 205, in loadTestsFromName
+    test = obj()
+  File "C:\Users\Administrator\PycharmProjects\untitled2\lianxi\demo_01.py", line 14, in suite
+    suite=unittest.TsetSuite()
+AttributeError: module 'unittest' has no attribute 'TsetSuite'
+..<_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'> 
+Time Elapsed: 0:00:00
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\untitled2\lianxi\demo_02.py", line 29, in <module>
+    youjian.send_email(filename)
+  File "C:\Users\Administrator\PycharmProjects\untitled2\lianxi\youjian.py", line 23, in send_email
+    smtp.connect(smtpserver)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\socket.py", line 727, in create_connection
+    raise err
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\socket.py", line 716, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] ç”±äºè¿æ¥æ–¹åœ¨ä¸€æ®µæ—¶é—´åæ²¡æœ‰æ­£ç¡®ç­”å¤æˆ–è¿æ¥çš„ä¸»æœºæ²¡æœ‰ååº”ï¼Œè¿æ¥å°è¯•å¤±è´¥ã€‚
+
+----------------------------------------------------------------------
+Ran 0 tests in 0.000s
+
+OK
+ÁíÒ»¸ö³ÌĞòÕıÔÚÊ¹ÓÃ´ËÎÄ¼ş£¬½ø³ÌÎŞ·¨·ÃÎÊ¡£
+ÁíÒ»¸ö³ÌĞòÕıÔÚÊ¹ÓÃ´ËÎÄ¼ş£¬½ø³ÌÎŞ·¨·ÃÎÊ¡£
+ÁíÒ»¸ö³ÌĞòÕıÔÚÊ¹ÓÃ´ËÎÄ¼ş£¬½ø³ÌÎŞ·¨·ÃÎÊ¡£
+ÁíÒ»¸ö³ÌĞòÕıÔÚÊ¹ÓÃ´ËÎÄ¼ş£¬½ø³ÌÎŞ·¨·ÃÎÊ¡£
+ÁíÒ»¸ö³ÌĞòÕıÔÚÊ¹ÓÃ´ËÎÄ¼ş£¬½ø³ÌÎŞ·¨·ÃÎÊ¡£
+ÁíÒ»¸ö³ÌĞòÕıÔÚÊ¹ÓÃ´ËÎÄ¼ş£¬½ø³ÌÎŞ·¨·ÃÎÊ¡£
+ÁíÒ»¸ö³ÌĞòÕıÔÚÊ¹ÓÃ´ËÎÄ¼ş£¬½ø³ÌÎŞ·¨·ÃÎÊ¡£
+ÁíÒ»¸ö³ÌĞòÕıÔÚÊ¹ÓÃ´ËÎÄ¼ş£¬½ø³ÌÎŞ·¨·ÃÎÊ¡£
+.<_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'> 
+Time Elapsed: 0:00:07.572058
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\untitled2\lianxi\baidu.py", line 82, in <module>
+    youjian.send_email(HtmlFile)
+  File "C:\Users\Administrator\PycharmProjects\untitled2\lianxi\youjian.py", line 23, in send_email
+    smtp.connect(smtpserver)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\smtplib.py", line 336, in connect
+    self.sock = self._get_socket(host, port, self.timeout)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\smtplib.py", line 307, in _get_socket
+    self.source_address)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\socket.py", line 727, in create_connection
+    raise err
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\socket.py", line 716, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] ç”±äºè¿æ¥æ–¹åœ¨ä¸€æ®µæ—¶é—´åæ²¡æœ‰æ­£ç¡®ç­”å¤æˆ–è¿æ¥çš„ä¸»æœºæ²¡æœ‰ååº”ï¼Œè¿æ¥å°è¯•å¤±è´¥ã€‚
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\untitled2\lianxi\demo_01.py", line 19, in <module>
+    unittest.main(defaultTest='suite')
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\main.py", line 100, in __init__
+    self.parseArgs(argv)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\main.py", line 147, in parseArgs
+    self.createTests()
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\main.py", line 159, in createTests
+    self.module)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\loader.py", line 220, in loadTestsFromNames
+    suites = [self.loadTestsFromName(name, module) for name in names]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\loader.py", line 220, in <listcomp>
+    suites = [self.loadTestsFromName(name, module) for name in names]
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python37\lib\unittest\loader.py", line 205, in loadTestsFromName
+    test = obj()
+  File "C:\Users\Administrator\PycharmProjects\untitled2\lianxi\demo_01.py", line 14, in suite
+    suite=unittest.TsetSuite()
+AttributeError: module 'unittest' has no attribute 'TsetSuite'
+..<_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'> 
+Time Elapsed: 0:00:00
